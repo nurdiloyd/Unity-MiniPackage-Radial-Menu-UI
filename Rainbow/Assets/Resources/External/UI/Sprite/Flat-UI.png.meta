@@ -1,0 +1,1882 @@
+fileFormatVersion: 2
+guid: 908f6cc93a7cc75408bd14c1554b9b34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6626811257855281389
+    second: Flat-UI_0
+  - first:
+      213: 1383814293485776498
+    second: Flat-UI_1
+  - first:
+      213: 615923793679913988
+    second: Flat-UI_2
+  - first:
+      213: 683266892710002967
+    second: Flat-UI_3
+  - first:
+      213: -3426721419210885262
+    second: Flat-UI_4
+  - first:
+      213: -1550608118081368069
+    second: Flat-UI_5
+  - first:
+      213: 1549501614593416301
+    second: Flat-UI_6
+  - first:
+      213: 7885565740310074435
+    second: Flat-UI_7
+  - first:
+      213: 7444526563217559812
+    second: Flat-UI_8
+  - first:
+      213: -5919433598446476097
+    second: Flat-UI_9
+  - first:
+      213: 3682273705563143471
+    second: Flat-UI_10
+  - first:
+      213: -6465190204558574795
+    second: Flat-UI_11
+  - first:
+      213: -7304006929814179303
+    second: Flat-UI_12
+  - first:
+      213: -228774434889712324
+    second: Flat-UI_13
+  - first:
+      213: -821194026444748897
+    second: Flat-UI_14
+  - first:
+      213: 3017409022556907211
+    second: Flat-UI_15
+  - first:
+      213: -4672755265959115042
+    second: Flat-UI_16
+  - first:
+      213: -557451501281927383
+    second: Flat-UI_17
+  - first:
+      213: 8153912194358491288
+    second: Flat-UI_18
+  - first:
+      213: -9065072248273917772
+    second: Flat-UI_19
+  - first:
+      213: 850346534015552053
+    second: Flat-UI_20
+  - first:
+      213: 6652724222990094464
+    second: Flat-UI_21
+  - first:
+      213: 7793535165779921104
+    second: Flat-UI_22
+  - first:
+      213: 2624416005307293165
+    second: Flat-UI_23
+  - first:
+      213: -2871902724998393103
+    second: Flat-UI_24
+  - first:
+      213: -4752102746756004562
+    second: Flat-UI_25
+  - first:
+      213: 3998790501798940529
+    second: Flat-UI_26
+  - first:
+      213: 5584878888684358841
+    second: Flat-UI_27
+  - first:
+      213: 6754582611925970360
+    second: Flat-UI_28
+  - first:
+      213: -3749380103339114011
+    second: Flat-UI_29
+  - first:
+      213: 3350575875514438761
+    second: Flat-UI_30
+  - first:
+      213: -3374435358432294734
+    second: Flat-UI_31
+  - first:
+      213: 2138519695177313298
+    second: Flat-UI_32
+  - first:
+      213: 6758998540800154838
+    second: Flat-UI_33
+  - first:
+      213: -5393666977838490692
+    second: Flat-UI_34
+  - first:
+      213: 8234417103326746613
+    second: Flat-UI_35
+  - first:
+      213: 2548507466973278864
+    second: Flat-UI_36
+  - first:
+      213: 8886229132752640544
+    second: Flat-UI_37
+  - first:
+      213: -5392160062668054441
+    second: Flat-UI_38
+  - first:
+      213: -2859860487323786762
+    second: Flat-UI_39
+  - first:
+      213: 3496450094613778515
+    second: Flat-UI_40
+  - first:
+      213: 900408617836174296
+    second: Flat-UI_41
+  - first:
+      213: -7196614291182511005
+    second: Flat-UI_42
+  - first:
+      213: -1801648182599340519
+    second: Flat-UI_43
+  - first:
+      213: -1920948197153073737
+    second: Flat-UI_44
+  - first:
+      213: -711832749692447802
+    second: Flat-UI_45
+  - first:
+      213: 8677577952739802673
+    second: Flat-UI_46
+  - first:
+      213: 5555948842927483957
+    second: Flat-UI_47
+  - first:
+      213: 2107556983436444221
+    second: Flat-UI_48
+  - first:
+      213: 5359179101313421997
+    second: Flat-UI_49
+  - first:
+      213: -4930841691207156727
+    second: Flat-UI_50
+  - first:
+      213: -3029882410465967815
+    second: Flat-UI_51
+  - first:
+      213: -7971801063577103976
+    second: Flat-UI_52
+  - first:
+      213: -7959659365997429293
+    second: Flat-UI_53
+  - first:
+      213: -6453828647368373627
+    second: Flat-UI_54
+  - first:
+      213: -7700616851914574861
+    second: Flat-UI_55
+  - first:
+      213: -2887053013958739328
+    second: Flat-UI_56
+  - first:
+      213: 3130676538950609055
+    second: Flat-UI_57
+  - first:
+      213: 5452139810085359057
+    second: Flat-UI_58
+  - first:
+      213: -1987834397972921252
+    second: Flat-UI_59
+  - first:
+      213: 7961814153377169751
+    second: Flat-UI_60
+  - first:
+      213: 6051978945268656677
+    second: Flat-UI_61
+  - first:
+      213: -8569302231405011016
+    second: Flat-UI_62
+  - first:
+      213: 4550137740118333852
+    second: Flat-UI_63
+  - first:
+      213: -6986184666915194473
+    second: Flat-UI_64
+  - first:
+      213: -5152083263778635757
+    second: Flat-UI_65
+  - first:
+      213: 327728064501951868
+    second: Flat-UI_66
+  - first:
+      213: 6216261669345711674
+    second: Flat-UI_67
+  - first:
+      213: -7955472961799956918
+    second: Flat-UI_68
+  - first:
+      213: 4763588215965498261
+    second: Flat-UI_69
+  - first:
+      213: -8229020072335738301
+    second: Flat-UI_70
+  - first:
+      213: -1738532787488522920
+    second: Flat-UI_71
+  - first:
+      213: 3759371066182279123
+    second: Flat-UI_72
+  - first:
+      213: -5249704298189008679
+    second: Flat-UI_73
+  - first:
+      213: 2910836854569189834
+    second: Flat-UI_74
+  - first:
+      213: -5367953755331954472
+    second: Flat-UI_75
+  - first:
+      213: 97980335980691888
+    second: Flat-UI_76
+  - first:
+      213: 1582925164231292997
+    second: Flat-UI_77
+  - first:
+      213: -3004954079637495533
+    second: Flat-UI_78
+  - first:
+      213: 1670398382097271119
+    second: Flat-UI_79
+  - first:
+      213: -327171428599304796
+    second: Flat-UI_80
+  - first:
+      213: 5208214138435582864
+    second: Flat-UI_81
+  - first:
+      213: -6685672723196807225
+    second: Flat-UI_82
+  - first:
+      213: -6869098457837235039
+    second: Flat-UI_83
+  - first:
+      213: -6032451600629494818
+    second: Flat-UI_84
+  - first:
+      213: -6309258319128743489
+    second: Flat-UI_85
+  - first:
+      213: 306704110137488917
+    second: Flat-UI_86
+  - first:
+      213: -1986800297176648057
+    second: Flat-UI_87
+  - first:
+      213: -6846788568393308197
+    second: Flat-UI_88
+  - first:
+      213: 286227501339050124
+    second: Flat-UI_89
+  - first:
+      213: 2912459403053464812
+    second: Flat-UI_90
+  - first:
+      213: 1871668021103439262
+    second: Flat-UI_91
+  - first:
+      213: 836559704401940246
+    second: Flat-UI_92
+  - first:
+      213: -3912475408239825803
+    second: Flat-UI_93
+  - first:
+      213: 6877205877045112093
+    second: Flat-UI_94
+  - first:
+      213: -3977014504725189878
+    second: Flat-UI_95
+  - first:
+      213: 820375295661625763
+    second: Flat-UI_96
+  - first:
+      213: 738353746618670005
+    second: Flat-UI_97
+  - first:
+      213: -5615169305303200887
+    second: Flat-UI_98
+  - first:
+      213: 1525739889942447127
+    second: Flat-UI_99
+  - first:
+      213: 340655827330516844
+    second: Flat-UI_100
+  - first:
+      213: -2842635832349767521
+    second: Flat-UI_101
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flat-UI_0
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1679
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8060a8ab927fb50800000000000000
+      internalID: 6626811257855281389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_1
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1675
+        width: 223
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ee356a4cb443310800000000000000
+      internalID: 1383814293485776498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_2
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1679
+        width: 301
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40490035d633c8800800000000000000
+      internalID: 615923793679913988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_3
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1675
+        width: 345
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711c3ca6e937b7900800000000000000
+      internalID: 683266892710002967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_4
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 1751
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27776b75607d170d0800000000000000
+      internalID: -3426721419210885262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_5
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 1731
+        width: 147
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff4cefc1222b7ae0800000000000000
+      internalID: -1550608118081368069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_6
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 1024
+        width: 875
+        height: 853
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c1cb4428fe08510800000000000000
+      internalID: 1549501614593416301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_13
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1402
+        width: 188
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d35b21dda33dcf0800000000000000
+      internalID: -228774434889712324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_14
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1402
+        width: 237
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97861242688a94f0800000000000000
+      internalID: -821194026444748897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_15
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1402
+        width: 304
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc62093e48dffd920800000000000000
+      internalID: 3017409022556907211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_16
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 1402
+        width: 352
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6cb2ac7d9072fb0800000000000000
+      internalID: -4672755265959115042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_17
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 1383
+        width: 223
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f159620d88348f0800000000000000
+      internalID: -557451501281927383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 1079
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898b67280f3882170800000000000000
+      internalID: 8153912194358491288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_19
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1191
+        width: 223
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a16aa1d4623280800000000000000
+      internalID: -9065072248273917772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_20
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1191
+        width: 300
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a4bf7daa90dcb00800000000000000
+      internalID: 850346534015552053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_21
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 1192
+        width: 345
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08016f3ee69335c50800000000000000
+      internalID: 6652724222990094464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_22
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 1149
+        width: 170
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8c3dcf0f2382c60800000000000000
+      internalID: 7793535165779921104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_23
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 1288
+        width: 416
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedd03bb37ccb6420800000000000000
+      internalID: 2624416005307293165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_24
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 1250
+        width: 416
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f29ef600b3f428d0800000000000000
+      internalID: -2871902724998393103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_25
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 1212
+        width: 416
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e254373cab32d0eb0800000000000000
+      internalID: -4752102746756004562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_26
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1163
+        width: 424
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f8eee56ce8e7730800000000000000
+      internalID: 3998790501798940529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_27
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1035
+        width: 237
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc0c9162c9718d40800000000000000
+      internalID: 5584878888684358841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_28
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1037
+        width: 306
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bda0e529191dbd50800000000000000
+      internalID: 6754582611925970360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_29
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1037
+        width: 353
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e10e8c39a687fbc0800000000000000
+      internalID: -3749380103339114011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_30
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 943
+        width: 185
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9641805b103af7e20800000000000000
+      internalID: 3350575875514438761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_31
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 940
+        width: 185
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b800278be89b21d0800000000000000
+      internalID: -3374435358432294734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_32
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 941
+        width: 170
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c6838155c8dad10800000000000000
+      internalID: 2138519695177313298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_42
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 673
+        width: 709
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c11947e6d702c90800000000000000
+      internalID: -7196614291182511005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 373
+        width: 1079
+        height: 449
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e20f106824ff6e0800000000000000
+      internalID: -1801648182599340519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_44
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 686
+        width: 875
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b593c4dacb6755e0800000000000000
+      internalID: -1920948197153073737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_45
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 48
+        width: 874
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39717b2ef0f16f0800000000000000
+      internalID: -711832749692447802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_46
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 570
+        width: 861
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e31d71c23fc6870800000000000000
+      internalID: 8677577952739802673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_47
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 554
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c6fe43902ba1d40800000000000000
+      internalID: 5555948842927483957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_48
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 404
+        width: 200
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d328f9df8eb8f3d10800000000000000
+      internalID: 2107556983436444221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_49
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 429
+        width: 140
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2db7d9ff0af5a40800000000000000
+      internalID: 5359179101313421997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_50
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 431
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c39e74b91229bb0800000000000000
+      internalID: -4930841691207156727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_51
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 435
+        width: 142
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931c8fc2002b3f5d0800000000000000
+      internalID: -3029882410465967815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_52
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 447
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891d7694b297e5190800000000000000
+      internalID: -7971801063577103976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_53
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 381
+        width: 132
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddbc9c8afb998190800000000000000
+      internalID: -7959659365997429293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_54
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 382
+        width: 134
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a4e500a056f66a0800000000000000
+      internalID: -6453828647368373627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_55
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 421
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3be36d5c9e12590800000000000000
+      internalID: -7700616851914574861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_56
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 449
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ab44f74902fe7d0800000000000000
+      internalID: -2887053013958739328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_57
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 458
+        width: 112
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98ecc2a9b5627b20800000000000000
+      internalID: 3130676538950609055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_63
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 225
+        width: 107
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c991adeba26552f30800000000000000
+      internalID: 4550137740118333852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_64
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 225
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7993d315f061c0f90800000000000000
+      internalID: -6986184666915194473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_65
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 225
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3104d39819f1088b0800000000000000
+      internalID: -5152083263778635757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_67
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 220
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a365a389d09944650800000000000000
+      internalID: 6216261669345711674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_68
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 225
+        width: 87
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4650bbbd7b789190800000000000000
+      internalID: -7955472961799956918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_69
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 227
+        width: 121
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b3cdc6e3aab1240800000000000000
+      internalID: 4763588215965498261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_70
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 232
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a7edae7d5accd80800000000000000
+      internalID: -8229020072335738301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_71
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 231
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d706314ad7fd7e0800000000000000
+      internalID: -1738532787488522920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_72
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 227
+        width: 98
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df1da21118fb2430800000000000000
+      internalID: 3759371066182279123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_73
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 227
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d05a9241cd4527b0800000000000000
+      internalID: -5249704298189008679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_74
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 231
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac146bb62be556820800000000000000
+      internalID: 2910836854569189834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_75
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 287
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8f6ba00823185b0800000000000000
+      internalID: -5367953755331954472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_79
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 174
+        width: 121
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f498b467a727e2710800000000000000
+      internalID: 1670398382097271119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_86
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 28
+        width: 136
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516b5ef53c1a14400800000000000000
+      internalID: 306704110137488917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_87
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 28
+        width: 150
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786352ff7a77d64e0800000000000000
+      internalID: -1986800297176648057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_88
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 30
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd726b8a2125bf0a0800000000000000
+      internalID: -6846788568393308197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_90
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 23
+        width: 123
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec7fbd65622b6820800000000000000
+      internalID: 2912459403053464812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_91
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 30
+        width: 109
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d245f062089f910800000000000000
+      internalID: 1871668021103439262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_92
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 31
+        width: 153
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f884e6e9e0c9b00800000000000000
+      internalID: 836559704401940246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_93
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 37
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ce96b685814b9c0800000000000000
+      internalID: -3912475408239825803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_94
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 35
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1da084ee4eb07f50800000000000000
+      internalID: 6877205877045112093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_95
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 37
+        width: 154
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b674b016ecec8c0800000000000000
+      internalID: -3977014504725189878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_7
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1512
+        width: 475
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3441c24e2482f6d60800000000000000
+      internalID: 7885565740310074435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 824
+        width: 882
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401da896775405760800000000000000
+      internalID: 7444526563217559812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_9
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 28
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4e5153182f9dda0800000000000000
+      internalID: -5919433598446476097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flat-UI_10
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 225
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d3ad9fc601a1330800000000000000
+      internalID: 3682273705563143471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

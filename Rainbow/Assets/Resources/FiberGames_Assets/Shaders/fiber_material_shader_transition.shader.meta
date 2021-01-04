@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 23d7561c5224b2a47bd983fdbf5a57eb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _toon_body_Base_Color: {fileID: 2800000, guid: 96b2993f7b96a8d488ccdb4cc02ab10b,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1268 @@
+fileFormatVersion: 2
+guid: cc72f546869f44cf9acb9a0c5f9e3356
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ROLLIC_LOGO_ANIMATION_00000
+  - first:
+      213: 21300002
+    second: ROLLIC_LOGO_ANIMATION_00001
+  - first:
+      213: 21300004
+    second: ROLLIC_LOGO_ANIMATION_00002
+  - first:
+      213: 21300006
+    second: ROLLIC_LOGO_ANIMATION_00003
+  - first:
+      213: 21300008
+    second: ROLLIC_LOGO_ANIMATION_00004
+  - first:
+      213: 21300010
+    second: ROLLIC_LOGO_ANIMATION_00005
+  - first:
+      213: 21300012
+    second: ROLLIC_LOGO_ANIMATION_00006
+  - first:
+      213: 21300014
+    second: ROLLIC_LOGO_ANIMATION_00007
+  - first:
+      213: 21300016
+    second: ROLLIC_LOGO_ANIMATION_00008
+  - first:
+      213: 21300018
+    second: ROLLIC_LOGO_ANIMATION_00009
+  - first:
+      213: 21300020
+    second: ROLLIC_LOGO_ANIMATION_00010
+  - first:
+      213: 21300022
+    second: ROLLIC_LOGO_ANIMATION_00011
+  - first:
+      213: 21300024
+    second: ROLLIC_LOGO_ANIMATION_00012
+  - first:
+      213: 21300026
+    second: ROLLIC_LOGO_ANIMATION_00013
+  - first:
+      213: 21300028
+    second: ROLLIC_LOGO_ANIMATION_00014
+  - first:
+      213: 21300030
+    second: ROLLIC_LOGO_ANIMATION_00015
+  - first:
+      213: 21300032
+    second: ROLLIC_LOGO_ANIMATION_00016
+  - first:
+      213: 21300034
+    second: ROLLIC_LOGO_ANIMATION_00017
+  - first:
+      213: 21300036
+    second: ROLLIC_LOGO_ANIMATION_00018
+  - first:
+      213: 21300038
+    second: ROLLIC_LOGO_ANIMATION_00019
+  - first:
+      213: 21300040
+    second: ROLLIC_LOGO_ANIMATION_00020
+  - first:
+      213: 21300042
+    second: ROLLIC_LOGO_ANIMATION_00021
+  - first:
+      213: 21300044
+    second: ROLLIC_LOGO_ANIMATION_00022
+  - first:
+      213: 21300046
+    second: ROLLIC_LOGO_ANIMATION_00023
+  - first:
+      213: 21300048
+    second: ROLLIC_LOGO_ANIMATION_00024
+  - first:
+      213: 21300050
+    second: ROLLIC_LOGO_ANIMATION_00025
+  - first:
+      213: 21300052
+    second: ROLLIC_LOGO_ANIMATION_00026
+  - first:
+      213: 21300054
+    second: ROLLIC_LOGO_ANIMATION_00027
+  - first:
+      213: 21300056
+    second: ROLLIC_LOGO_ANIMATION_00028
+  - first:
+      213: 21300058
+    second: ROLLIC_LOGO_ANIMATION_00029
+  - first:
+      213: 21300060
+    second: ROLLIC_LOGO_ANIMATION_00030
+  - first:
+      213: 21300062
+    second: ROLLIC_LOGO_ANIMATION_00031
+  - first:
+      213: 21300064
+    second: ROLLIC_LOGO_ANIMATION_00032
+  - first:
+      213: 21300066
+    second: ROLLIC_LOGO_ANIMATION_00033
+  - first:
+      213: 21300068
+    second: ROLLIC_LOGO_ANIMATION_00034
+  - first:
+      213: 21300070
+    second: ROLLIC_LOGO_ANIMATION_00035
+  - first:
+      213: 21300072
+    second: ROLLIC_LOGO_ANIMATION_00036
+  - first:
+      213: 21300074
+    second: ROLLIC_LOGO_ANIMATION_00037
+  - first:
+      213: 21300076
+    second: ROLLIC_LOGO_ANIMATION_00038
+  - first:
+      213: 21300078
+    second: ROLLIC_LOGO_ANIMATION_00039
+  - first:
+      213: 21300080
+    second: ROLLIC_LOGO_ANIMATION_00040
+  - first:
+      213: 21300082
+    second: ROLLIC_LOGO_ANIMATION_00041
+  - first:
+      213: 21300084
+    second: ROLLIC_LOGO_ANIMATION_00042
+  - first:
+      213: 21300086
+    second: ROLLIC_LOGO_ANIMATION_00043
+  - first:
+      213: 21300088
+    second: ROLLIC_LOGO_ANIMATION_00044
+  - first:
+      213: 21300090
+    second: ROLLIC_LOGO_ANIMATION_00045
+  - first:
+      213: 21300092
+    second: ROLLIC_LOGO_ANIMATION_00046
+  - first:
+      213: 21300094
+    second: ROLLIC_LOGO_ANIMATION_00047
+  - first:
+      213: 21300096
+    second: ROLLIC_LOGO_ANIMATION_00048
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00000
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fc05532f7b36930800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00001
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c44ac24294dcc980800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00002
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f0050995aa5fe80800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00003
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d86988428725b60800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00004
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed8f8e6c47824760800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00005
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd0c5240c63ad510800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00006
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221b9f7ff319323e0800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00007
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59426591cd7166ff0800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00008
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf995d9f958440970800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00009
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d363bca20b3947d50800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00010
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aa7595f6e759110800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00011
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a4fa24b703de860800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00012
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edea7e23b941a6570800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00013
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f46a30d5a4d7d00800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00014
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d609c3552e853c0800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00015
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08aa1c8901fb5440800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00016
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1be8e8e315d4bd0800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00017
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1751
+        width: 314
+        height: 296
+      alignment: 9
+      pivot: {x: 0.53821653, y: 0.46283785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28514b2a7be984d0800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00018
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 414
+        width: 307
+        height: 301
+      alignment: 9
+      pivot: {x: 0.5407166, y: 0.4551495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530d675b26fb5b150800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 292
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5205479, y: 0.44771242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75499d5f40acbe20800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00020
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 717
+        width: 301
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5282392, y: 0.4726688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e76bdd103f36e190800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00021
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1440
+        width: 314
+        height: 297
+      alignment: 9
+      pivot: {x: 0.522293, y: 0.4781145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed5a371800b43a00800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00022
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1763
+        width: 302
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5298013, y: 0.47887325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729dc91972e96cea0800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00023
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1480
+        width: 321
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5451713, y: 0.48754448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbd463ed90c94620800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00024
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1201
+        width: 318
+        height: 277
+      alignment: 9
+      pivot: {x: 0.5503145, y: 0.49819493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53853fe524229bc80800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00025
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 806
+        width: 310
+        height: 296
+      alignment: 9
+      pivot: {x: 0.5322581, y: 0.4662162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90a2ebdce1a88b20800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00026
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1739
+        width: 307
+        height: 308
+      alignment: 9
+      pivot: {x: 0.534202, y: 0.44155845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dbe8e2285cae930800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1030
+        width: 302
+        height: 323
+      alignment: 9
+      pivot: {x: 0.5298013, y: 0.42105263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0cfff63ca1217e0800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1355
+        width: 309
+        height: 338
+      alignment: 9
+      pivot: {x: 0.5210356, y: 0.40236688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96455483b06c9c820800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1695
+        width: 295
+        height: 352
+      alignment: 9
+      pivot: {x: 0.5186441, y: 0.38636363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb2042da373bef0800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00030
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1717
+        width: 310
+        height: 330
+      alignment: 9
+      pivot: {x: 0.5225806, y: 0.4121212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c47adb2562028ed0800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00031
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1043
+        width: 306
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5261438, y: 0.43870968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d063ef0637619b90800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00032
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1144
+        width: 307
+        height: 294
+      alignment: 9
+      pivot: {x: 0.52443, y: 0.4829932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bcf77e66a85b220800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00033
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 928
+        width: 313
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5207668, y: 0.5092251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad37dc14eda7cd2d0800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00034
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 648
+        width: 309
+        height: 278
+      alignment: 9
+      pivot: {x: 0.53721684, y: 0.49280575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b026917743a0ad20800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00035
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1465
+        width: 304
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5394737, y: 0.4773519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c281bb0a7842ef60800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00036
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1104
+        width: 299
+        height: 299
+      alignment: 9
+      pivot: {x: 0.53177255, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a2d9f43f43deca0800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00037
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 715
+        width: 293
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5255973, y: 0.44089457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86be4b8621225580800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00038
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 401
+        width: 296
+        height: 312
+      alignment: 9
+      pivot: {x: 0.5337838, y: 0.47115386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2135a9727e4b96370800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00039
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1405
+        width: 304
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5493421, y: 0.47096774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5cb1b19c26d8a80800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00040
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 98
+        width: 323
+        height: 301
+      alignment: 9
+      pivot: {x: 0.52012384, y: 0.48504984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e210488ee6d04e0800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00041
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 513
+        width: 323
+        height: 291
+      alignment: 9
+      pivot: {x: 0.52012384, y: 0.4707904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099ce769d9cee3470800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00042
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 852
+        width: 311
+        height: 290
+      alignment: 9
+      pivot: {x: 0.50482315, y: 0.47241378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176aa9a7efc5cc510800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00043
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 741
+        width: 303
+        height: 300
+      alignment: 9
+      pivot: {x: 0.5280528, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1325bcb5e6c0c0b0800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00044
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1164
+        width: 307
+        height: 290
+      alignment: 9
+      pivot: {x: 0.534202, y: 0.47241378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241d7b324b6cd0960800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00045
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1456
+        width: 310
+        height: 293
+      alignment: 9
+      pivot: {x: 0.5322581, y: 0.4675768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bea964ed939959f0800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00046
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1754
+        width: 305
+        height: 293
+      alignment: 9
+      pivot: {x: 0.52459013, y: 0.4675768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687b5aa80d2a33af0800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00047
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 144
+        width: 301
+        height: 293
+      alignment: 9
+      pivot: {x: 0.53156143, y: 0.4675768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257c9e9ca3dd73370800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ROLLIC_LOGO_ANIMATION_00048
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 439
+        width: 298
+        height: 300
+      alignment: 9
+      pivot: {x: 0.52684563, y: 0.48666668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3154f4349b7a79f90800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

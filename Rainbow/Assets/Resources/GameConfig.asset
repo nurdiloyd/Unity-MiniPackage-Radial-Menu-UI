@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c82deb7e0cdd2409ce5385b2ace0be, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  HueDatas:
+  - Hue: 0
+    HueMaterial: {fileID: 2100000, guid: d49210a5fefe7444f9bcf9a77ef9de57, type: 2}
+    ButtonColor: {r: 0.44448987, g: 1, b: 0.2971698, a: 1}
+  - Hue: 1
+    HueMaterial: {fileID: 2100000, guid: a4817e1ef72244572ae486ce73b53b32, type: 2}
+    ButtonColor: {r: 0.3066038, g: 0.97856134, b: 1, a: 1}
+  - Hue: 2
+    HueMaterial: {fileID: 2100000, guid: f0a68dfe8eddb40dd94444cde9ce2d61, type: 2}
+    ButtonColor: {r: 0.042452812, g: 0.35298702, b: 1, a: 1}
+  - Hue: 3
+    HueMaterial: {fileID: 2100000, guid: d47b2ba1eebbb4a818309161a907b507, type: 2}
+    ButtonColor: {r: 0.5825767, g: 0.2028302, b: 1, a: 1}
+  - Hue: 4
+    HueMaterial: {fileID: 2100000, guid: f7e6f27d1fbca44d2965600dcf711c32, type: 2}
+    ButtonColor: {r: 1, g: 0.25943398, b: 0.8662487, a: 1}
+  - Hue: 5
+    HueMaterial: {fileID: 2100000, guid: d977d941c127a4375866ae9b4f8c5e7d, type: 2}
+    ButtonColor: {r: 1, g: 0.24056602, b: 0.24056602, a: 1}
+  - Hue: 6
+    HueMaterial: {fileID: 2100000, guid: 22202677c71194e0b8d6fe0bd60b3103, type: 2}
+    ButtonColor: {r: 1, g: 0.471018, b: 0.19339621, a: 1}
+  - Hue: 7
+    HueMaterial: {fileID: 2100000, guid: bf80033a5eb7a413ab5833f177a2d1bf, type: 2}
+    ButtonColor: {r: 1, g: 0.8743077, b: 0.2783019, a: 1}

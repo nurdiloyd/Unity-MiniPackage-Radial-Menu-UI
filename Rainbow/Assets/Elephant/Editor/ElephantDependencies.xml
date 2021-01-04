@@ -1,0 +1,6 @@
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.android.volley:volley:1.1.1">
+    </androidPackage>
+  </androidPackages>
+</dependencies>
