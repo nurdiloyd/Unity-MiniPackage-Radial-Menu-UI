@@ -1,158 +1,119 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(PiUI))]
-public class PiUIEditor : Editor
+[CustomEditor(typeof(PieMenu))]
+public class PieUIEditor : Editor
 {
-    private PiUI myTarget;
-    private int slicesToAdd;
-    private System.Action addSlice;
-    private System.Action<PiUI.PiData> removeSlice;
-    private System.Action<int> angleUpdate;
-    private List<PiUI.PiData> slicesToRemove = new List<PiUI.PiData>( );
+    private PieMenu _target;
+    
+    private System.Action _addSlice;
+    private bool _sliceToAdd;
 
-    private List<string> itemsNotToDraw = new List<string>( );
+    private System.Action<PieMenu.PieData> _removeSlice;
+    private PieMenu.PieData _sliceToRemove = null;
+    
+    private System.Action<int> _updateAngle;
 
-    private void OnEnable()
-    {
-        myTarget = (PiUI)target;
-        addSlice = AddSlice;
-        removeSlice = SliceToRemove;
-        angleUpdate = AngleUpdate;
+
+    private void OnEnable() {
+        _target = (PieMenu) target;
+        _addSlice = AddSlice;
+        _removeSlice = RemoveSlice;
+        _updateAngle = UpdateAngle;
     }
 
-    public override void OnInspectorGUI()
-    {
-        if (!myTarget.dynamicallyScaleToResolution)
-        {
-            if (!itemsNotToDraw.Contains("defaultResolution"))
-                itemsNotToDraw.Add("defaultResolution");
-        }
-        else
-        {
-            itemsNotToDraw.Remove("defaultResolution");
+    public override void OnInspectorGUI() {
+        DrawPropertiesExcluding(serializedObject);
+
+        // Drawing Slices
+        _target.PieDatas = _target.PieDatas.ToList().OrderBy(x => x.Order).ToArray();
+        for (var i = 0; i < _target.PieDatas.Length; i++) {
+            if (_sliceToRemove != _target.PieDatas[i]) {
+                _target.PieDatas[i].OnInspectorGUI(_target, _addSlice, _removeSlice, _updateAngle);
+            }
         }
 
-        serializedObject.Update( );
+        if (_target.PieDatas.Length < 1) {
+            _target.PieDatas = new PieMenu.PieData[1];
+        }
         
-        if (itemsNotToDraw.Count == 0)
-        {
-            EditorUtility.SetDirty(myTarget);
-        }
-        else
-        {
-            DrawPropertiesExcluding(serializedObject, itemsNotToDraw.ToArray( ));
-            EditorUtility.SetDirty(myTarget);
+        // Adding a Slice
+        if (_sliceToAdd) {
+            Undo.RecordObject(_target, "Add Slice");
+            PieMenu.PieData[] tempArray = new PieMenu.PieData[_target.PieDatas.Length + 1];
+            for (int i = _target.PieDatas.Length; i < tempArray.Length; i++) {
+                tempArray[i] = new PieMenu.PieData();
+                tempArray[i].SetValues(_target.PieDatas[_target.PieDatas.Length - 1]);
+                tempArray[i].Order = i;
+            }
+
+            for (int i = 0; i < _target.PieDatas.Length; i++) {
+                tempArray[i] = _target.PieDatas[i];
+            }
+
+            _target.PieDatas = tempArray;
+            _sliceToAdd = false;
         }
 
-        serializedObject.ApplyModifiedProperties( );
-        serializedObject.Update( );
-
-        myTarget.piData = myTarget.piData.ToList( ).OrderBy(x => x.order).ToArray( );
-        var sprop = serializedObject.FindProperty("piData");
-        for (var i = 0; i < myTarget.piData.Length; i++)
-        {
-            if (!slicesToRemove.Contains(myTarget.piData[i]))
-            {
-                myTarget.piData[i].OnInspectorGUI(sprop.GetArrayElementAtIndex(i), myTarget, addSlice, removeSlice, angleUpdate);
-            }
-            if(i< myTarget.piData.Length - 1)
-            {
-                GUILayout.Space(10);
-            }
-        }
-
-        if (myTarget.piData.Length < 1)
-        {
-            myTarget.piData = new PiUI.PiData[1];
-        }
-        myTarget.sliceCount = myTarget.piData.Length;
-        
-        if (slicesToAdd > 0)
-        {
-            Undo.RecordObject(myTarget, "Add Slice");
-            PiUI.PiData[] tempArray = new PiUI.PiData[myTarget.piData.Length + slicesToAdd];
-            for (int i = myTarget.piData.Length; i < tempArray.Length; i++)
-            {
-                tempArray[i] = new PiUI.PiData( );
-                tempArray[i].SetValues(myTarget.piData[myTarget.piData.Length - 1]);
-                tempArray[i].order = i;
-            }
-            for (int j = 0; j < myTarget.piData.Length; j++)
-            {
-                tempArray[j] = myTarget.piData[j];
-            }
-            slicesToAdd = 0;
-            myTarget.piData = tempArray;
-        }
-        else if (slicesToRemove.Count > 0 && myTarget.piData.Length > 1)
-        {
-            Undo.RecordObject(myTarget, "Removed Slice");
-            PiUI.PiData[] tempArray = new PiUI.PiData[myTarget.piData.Length - slicesToRemove.Count];
-            int addedSlices = 0;
-            for (int i = 0; i < myTarget.piData.Length; i++)
-            {
-                if (!slicesToRemove.Contains(myTarget.piData[i]))
-                {
-                    tempArray[addedSlices] = myTarget.piData[i];
-                    tempArray[addedSlices].order = addedSlices;
-                    addedSlices++;
+        // Removing a Slice
+        if (_sliceToRemove != null && _target.PieDatas.Length > 1) {
+            Undo.RecordObject(_target, "Removed Slice");
+            PieMenu.PieData[] tempArray = new PieMenu.PieData[_target.PieDatas.Length - 1];
+            int added = 0;
+            for (int i = 0; i < _target.PieDatas.Length; i++) {
+                if (_sliceToRemove != _target.PieDatas[i]) {
+                    tempArray[added] = _target.PieDatas[i];
+                    tempArray[added].Order = added;
+                    added++;
                 }
             }
-            myTarget.piData = tempArray;
-            slicesToRemove = new List<PiUI.PiData>( );
+
+            _target.PieDatas = tempArray;
+            _sliceToRemove = null;
         }
+
         serializedObject.ApplyModifiedProperties( );
         
-        if(SumOfAngles() > 360)
-        {
-            for (int i = 0; i < myTarget.piData.Length; i++)
-            {
-                AngleUpdate(i);
+        // Updating angles of slices
+        if(SumOfAngles() > 360) {
+            for (int i = 0; i < _target.PieDatas.Length; i++) {
+                UpdateAngle(i);
             }
         }
-        if(SumOfAngles() < 360)
-        {
-            myTarget.piData[myTarget.piData.Length - 1].angle = 360 - SumOfAngles( );
+
+        if(SumOfAngles() < 360) {
+            _target.PieDatas[_target.PieDatas.Length - 1].Angle = 360 - SumOfAngles( );
         }
     }
 
-    public void AddSlice()
-    {
-        slicesToAdd++;
+    public void AddSlice() {
+        _sliceToAdd = true;
     }
 
-    public void SliceToRemove(PiUI.PiData sliceToRemove)
-    {
-        if (!slicesToRemove.Contains(sliceToRemove))
-            slicesToRemove.Add(sliceToRemove);
+    public void RemoveSlice(PieMenu.PieData sliceToRemove) {
+        _sliceToRemove = sliceToRemove;
     }
     
-    public float SumOfAngles()
-    {
+    public float SumOfAngles() {
         float sum = 0;
-        for(int i = 0; i< myTarget.piData.Length;i++)
-        {
-            sum += Mathf.Abs(myTarget.piData[i].angle);
+        for(int i = 0; i< _target.PieDatas.Length;i++) {
+            sum += Mathf.Abs(_target.PieDatas[i].Angle);
         }
-        return sum;
 
+        return sum;
     }
 
-    public void AngleUpdate(int order)
-    {
+    public void UpdateAngle(int order) {
         float sumBefore = 0;
-        for (int i = 0; i <= order; i++)
-        {
-            sumBefore += myTarget.piData[i].angle;
+        for (int i = 0; i <= order; i++) {
+            sumBefore += _target.PieDatas[i].Angle;
         }
-        float remainder = (360 - sumBefore) / (myTarget.piData.Length - order - 1);
-        for (int i = order + 1; i < myTarget.piData.Length; i++)
-        {
-            myTarget.piData[i].angle = remainder;
+
+        float remainder = (360 - sumBefore) / (_target.PieDatas.Length - order - 1);
+        for (int i = order + 1; i < _target.PieDatas.Length; i++) {
+            _target.PieDatas[i].Angle = remainder;
         }
     }
 }

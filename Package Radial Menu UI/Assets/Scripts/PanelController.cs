@@ -2,55 +2,34 @@
 
 public class PanelController : MonoBehaviour
 {
-    [SerializeField] protected PiUIManager piUi;
-
-    private bool _isClicked;
+    [SerializeField] protected PieMenu pieMenu;
 
 
-/*
+    private void Start() {
+        SetPieMenu();
+    }
+
     private void SetPieMenu() {
-        //Get menu for easy not repetitive getting of the menu when setting joystick input
-        _pieMenu = piUi.GetPieMenu();
-        
-        int dataCount = HueDatas.Length;
-
-        //Changes the data length and adds new piData
-        _pieMenu.piData = new PiUI.PiData[dataCount];
-        for(int j = 0; j < dataCount; j++) {
-            _pieMenu.piData[j] = new PiUI.PiData( );
-            PiUI.PiData dat = _pieMenu.piData[j];
-
-            dat.isInteractable = true;
-            dat.buttonColor = HueDatas[j].ButtonColor;
-            dat.hue = HueDatas[j].Hue;
-            dat.onSlicePressed = new UnityEngine.Events.UnityAction<HueColor, Color>(Clicked);
+        int dataCount = pieMenu.PieDatas.Length;
+        for(int i = 0; i < dataCount; i++) {
+            PieMenu.PieData dat = pieMenu.PieDatas[i];
+            dat.OnPressed += Clicked;
         }
 
-        piUi.RegeneratePiMenu();
+        pieMenu.UpdatePiUI();
     }
-*/
 
     private void Update() {
-
-        // Opening 
-        if (Input.GetMouseButtonDown(0)) {
-            piUi.OpenPieMenu(Input.mousePosition);
-
-            _isClicked = false;
+        if (Input.GetMouseButtonDown(0)) {      // Opening 
+            pieMenu.OpenMenu(Input.mousePosition);
         }
-
-        // Closing the panel
-        else if (Input.GetMouseButtonUp(0)) {
-            piUi.ClosePieMenu();
-
-            if (!_isClicked) {
-                Debug.Log("Clicked");
-            }
+        else if (Input.GetMouseButtonUp(0)) {   // Closing
+            pieMenu.CloseMenu();
         }
     }
 
-    public void Clicked(HueColor hue, Color matColor) {
-        _isClicked = true;
+    public void Clicked(int value) {
+        Debug.Log("Clicked" + value);
     }
 
     public void OnHoverEnter() {
@@ -61,8 +40,3 @@ public class PanelController : MonoBehaviour
         Debug.Log("That's right and dont come back!");
     }
 }
-
-
-public enum HueColor {
-    Green, Cyan, Blue, Purple, Pink, Red, Orange, Yellow, SELF
-};

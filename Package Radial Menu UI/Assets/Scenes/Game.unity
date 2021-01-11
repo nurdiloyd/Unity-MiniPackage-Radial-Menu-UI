@@ -205,7 +205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &493260034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,11 +218,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b9e14333f740d45b2220b101ec5898, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hue: 0
+  parent: {fileID: 0}
   normalColor: {r: 0, g: 0, b: 0, a: 0}
   disabledColor: {r: 0, g: 0, b: 0, a: 0}
-  materialColor: {r: 1, g: 0, b: 0, a: 1}
-  parent: {fileID: 0}
 --- !u!114 &493260035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,10 +392,8 @@ MonoBehaviour:
   piCut: {fileID: 493260034}
   transitionSpeed: 10
   openTransition: 0
-  closeTransition: 2
-  dynamicallyScaleToResolution: 0
-  defaultResolution: {x: 1080, y: 1920}
-  useController: 1
+  closeTransition: 0
+  useController: 0
   joystickButton: 0
   joystickInput: {x: 0, y: 0}
   hoverScale: 1.2
@@ -405,22 +401,19 @@ MonoBehaviour:
   interactable: 0
   equalSlices: 1
   sliceCount: 3
-  piData:
-  - angle: 249.8125
-    buttonColor: {r: 1, g: 0.38102233, b: 0, a: 1}
-    materialColor: {r: 0, g: 0, b: 0, a: 0}
-    isInteractable: 1
-    order: 0
-  - angle: 55.09375
-    buttonColor: {r: 1, g: 0.53611743, b: 0, a: 1}
-    materialColor: {r: 0, g: 0, b: 0, a: 0}
-    isInteractable: 1
-    order: 1
-  - angle: 55.09375
-    buttonColor: {r: 1, g: 0, b: 0, a: 1}
-    materialColor: {r: 0, g: 0, b: 0, a: 0}
-    isInteractable: 1
-    order: 2
+  PieDatas:
+  - Angle: 0
+    Order: 0
+    ButtonColor: {r: 1, g: 0, b: 0, a: 1}
+    Interactable: 1
+  - Angle: 0
+    Order: 1
+    ButtonColor: {r: 0.023744104, g: 0.972549, b: 0, a: 1}
+    Interactable: 1
+  - Angle: 360
+    Order: 2
+    ButtonColor: {r: 0.9716981, g: 0.8159478, b: 0, a: 1}
+    Interactable: 1
   openedMenu: 0
   angleList: []
   overMenu: 0
@@ -502,19 +495,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &180303688551420286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 221476731044478806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0473888730c8a294fb6de4729423eb7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PieMenu: {fileID: 1270098769}
 --- !u!114 &184219785770019404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -549,7 +529,6 @@ GameObject:
   - component: {fileID: 3439801739320748}
   - component: {fileID: 184219785770019404}
   - component: {fileID: 180298810507634732}
-  - component: {fileID: 180303688551420286}
   - component: {fileID: 221476731044478807}
   m_Layer: 5
   m_Name: GUI
@@ -570,4 +549,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4eeac98074d65f44baf4d22f245dfba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piUi: {fileID: 180303688551420286}
+  pieMenu: {fileID: 1270098769}

@@ -10,7 +10,7 @@ using UnityEditor;
 #endif
 
 [System.Serializable]
-public class PiUI : MonoBehaviour
+public class PieMenu : MonoBehaviour
 {
     public PiPiece piCut;
 
@@ -18,10 +18,7 @@ public class PiUI : MonoBehaviour
     [SerializeField] protected float transitionSpeed;
     [SerializeField] public TransitionType openTransition;
     [SerializeField] public TransitionType closeTransition;
-
-    [Header("Platform Settings")]
-    public bool dynamicallyScaleToResolution;
-    [SerializeField] protected Vector2 defaultResolution;
+    public enum TransitionType { Scale };
     
     public bool useController;
     [HideInInspector] public bool joystickButton;
@@ -35,43 +32,22 @@ public class PiUI : MonoBehaviour
 
     [Header("Slice Data")]
     public bool equalSlices;
-    [HideInInspector]
-    [Range(1, 30)]
-    public int sliceCount;
-
-    [HideInInspector]
-    public PiData[] piData;
+    [HideInInspector] [Range(1, 30)] public int sliceCount;
+    [HideInInspector] public PieData[] PieDatas;
 
 
-    [HideInInspector]
-    public bool openedMenu;
-
-    public enum TransitionType { Scale, Fan, ScaleAndFan };
-
+    [HideInInspector] public bool openedMenu;
     private Vector2 menuPosition;
-    [SerializeField]
-    [HideInInspector]
-    private float[] angleList;
-    [HideInInspector]
-    public bool overMenu;
+    [SerializeField] [HideInInspector] private float[] angleList;
+    [HideInInspector] public bool overMenu;
 
 
     private void Awake() {
-        if (dynamicallyScaleToResolution) {
-            if (Screen.width > Screen.height) {
-                scaleModifier *= Screen.height / defaultResolution.y;
-            }
-            else {
-                scaleModifier *= Screen.width / defaultResolution.x;
-            }
-        }
-
-        GeneratePi(new Vector2(-1000, -1000));
+        GeneratePie(new Vector2(-1000, -1000));
     }
 
-    // Clear menu and make a new pi with the updated pidata and position
-    public void GeneratePi(Vector2 screenPosition) {
-        sliceCount = piData.Length;
+    public void GeneratePie(Vector2 screenPosition) {
+        sliceCount = PieDatas.Length;
         if (piList.Count > 1) {
             ClearMenu( );
         }
@@ -90,8 +66,8 @@ public class PiUI : MonoBehaviour
             float angle = fillPercentage * 360;
             
             if (!equalSlices) {
-                angle = piData[i].angle;
-                fillPercentage = piData[i].angle / 360;
+                angle = PieDatas[i].Angle;
+                fillPercentage = PieDatas[i].Angle / 360;
             }
             currentImage.fillAmount = fillPercentage;
             angle = (angle + 360) % 360;
@@ -111,7 +87,7 @@ public class PiUI : MonoBehaviour
             angleList[i] = rot;
             
             currentImage.rectTransform.localPosition = Vector2.zero;
-            currentPi.SetData(piData[i], this);
+            currentPi.SetData(PieDatas[i], this);
             piList.Add(currentPi);
         }
         openedMenu = false;
@@ -128,13 +104,6 @@ public class PiUI : MonoBehaviour
                     Scale( );
                     transform.position = menuPosition;
                     break;
-                case TransitionType.Fan:
-                    Fan( );
-                    break;
-                case TransitionType.ScaleAndFan:
-                    Fan( );
-                    Scale( );
-                    break;
             }
         }
         else if (!openedMenu)
@@ -145,10 +114,6 @@ public class PiUI : MonoBehaviour
                 case TransitionType.Scale:
                     Scale( );
                     transform.position = menuPosition;
-                    break;
-                case TransitionType.ScaleAndFan:
-                    Fan( );
-                    Scale( );
                     break;
             }
         }
@@ -177,7 +142,7 @@ public class PiUI : MonoBehaviour
         }
 
         if (piList.Count == 0) {
-            GeneratePi(screenPos);
+            GeneratePie(screenPos);
         }
         else {
             ResetPiRotation( );
@@ -187,14 +152,6 @@ public class PiUI : MonoBehaviour
         {
             case TransitionType.Scale:
                 transform.localScale *= 0;
-                break;
-            case TransitionType.Fan:
-                transform.localScale = Vector2.one * scaleModifier;
-                PiRotationToNil( );
-                break;
-            case TransitionType.ScaleAndFan:
-                transform.localScale *= 0;
-                PiRotationToNil( );
                 break;
         }
     }
@@ -236,45 +193,6 @@ public class PiUI : MonoBehaviour
             }
         }
     }
-
-    private void Fan()
-    {
-        transform.position = menuPosition;
-        float rotZ = transform.GetChild(transform.childCount - 1).rotation.eulerAngles.z;
-        int erase = 0;
-        bool closeToAngle = true;
-        for (int i = 0; i < piList.Count; i++)
-        {
-            if (openedMenu)
-            {
-                piList[i].transform.rotation = Quaternion.Lerp(piList[i].transform.rotation, Quaternion.Euler(0, 0, angleList[i]), Time.deltaTime * transitionSpeed);
-                if (Mathf.Abs(angleList[i] - ((piList[i].transform.rotation.eulerAngles.z + 360) % 360)) > 3 && closeToAngle)
-                {
-                    closeToAngle = false;
-                }
-            }
-            else if (!openedMenu)
-            {
-                piList[i].transform.rotation = Quaternion.Lerp(piList[i].transform.rotation, Quaternion.Euler(0, 0, rotZ), Time.deltaTime * transitionSpeed);
-                float currentAngle = Mathf.Abs(piList[i].transform.rotation.eulerAngles.z + 360f) % 360;
-                float lowComp = (rotZ - 10 + 360f) % 360;
-                float highComp = (rotZ + 10 + 360f) % 360;
-                bool rotNil = (currentAngle >= lowComp && rotZ == 0 || currentAngle <= highComp && rotZ == 0);
-                if (currentAngle >= lowComp && currentAngle <= highComp || rotZ == piList[i].transform.rotation.eulerAngles.z || rotNil)
-                {
-                    erase++;
-                }
-            }
-        }
-        interactable = closeToAngle;
-        if (erase == piList.Count)
-        {
-            foreach (PiPiece pi in piList)
-            {
-                pi.gameObject.SetActive(false);
-            }
-        }
-    }
     #endregion
 
     /// <summary>
@@ -288,7 +206,7 @@ public class PiUI : MonoBehaviour
             float fillPercentage = (1f / sliceCount);
             float angle = fillPercentage * 360;
             if (!equalSlices) {
-                angle = piData[i].angle;
+                angle = PieDatas[i].Angle;
             }
             int rot = Mathf.Clamp((int)(angle + lastRot), 0, 359);
             Vector3 rotVec = new Vector3(0, 0, rot);
@@ -307,78 +225,80 @@ public class PiUI : MonoBehaviour
     /// Use This Function To Update the Slices When pi count maintains the same count
     public void UpdatePiUI() {
         foreach (PiPiece currentPi in piList) {   
-            currentPi.SetData(piData[piList.IndexOf(currentPi)], this);
+            currentPi.SetData(PieDatas[piList.IndexOf(currentPi)], this);
         }
     }
 
     [System.Serializable]
-    public class PiData
+    public class PieData
     {
-        [Range(20, 360)]
-        public float angle;
-        public Color buttonColor;
-        public Color materialColor;
-        public UnityAction<int> onSlicePressed;
-        public bool isInteractable = true;
-        public int order;
+        [Range(20, 360)] public float Angle;
+        public int Order;
+        public Color ButtonColor;
+        public bool Interactable = true;
+        public UnityAction<int> OnPressed;
 
-        public void SetValues(PiData newData) {
-            buttonColor = newData.buttonColor;
-            materialColor = newData.materialColor;
-            angle = newData.angle;
-            isInteractable = newData.isInteractable;
+        public void SetValues(PieData pieData) {
+            ButtonColor = pieData.ButtonColor;
+            Angle = pieData.Angle;
+            Interactable = pieData.Interactable;
         }
 
 #if UNITY_EDITOR
-        public void OnInspectorGUI(SerializedProperty sprop, PiUI menu, System.Action AddSlice, System.Action<PiData> RemoveSlice, System.Action<int> angleUpdate) {
-            order = Mathf.Clamp(order, 0, menu.piData.Length);
+        public void OnInspectorGUI(PieMenu menu, System.Action AddSlice, System.Action<PieData> RemoveSlice, System.Action<int> angleUpdate) {
+            Order = Mathf.Clamp(Order, 0, menu.PieDatas.Length);
 
             GUILayout.BeginVertical(EditorStyles.helpBox);
             
                 GUILayout.BeginHorizontal( );
 
-                    if (order > 0 && GUILayout.Button("▲", GUILayout.Width(32))) {
-                        order = Mathf.Clamp(order - 1, 0, menu.piData.Length);
-                        foreach (PiData pi in menu.piData) {
-                            if (pi != this && pi.order == order) {
-                                pi.order = Mathf.Clamp(pi.order + 1, 0, menu.piData.Length);
+                    if (Order > 0 && GUILayout.Button("▲", GUILayout.Width(32))) {
+                        Order = Mathf.Clamp(Order - 1, 0, menu.PieDatas.Length);
+                        foreach (PieData pie in menu.PieDatas) {
+                            if (pie != this && pie.Order == Order) {
+                                pie.Order = Mathf.Clamp(pie.Order + 1, 0, menu.PieDatas.Length);
                                 break;
                             }
                         }
                     }
                     
-                    if (order < menu.piData.Length - 1 && GUILayout.Button("▼", GUILayout.Width(32))) {
-                        order = Mathf.Clamp(order + 1, 0, menu.piData.Length);
-                        foreach (PiData pi in menu.piData) {
-                            if (pi != this && pi.order == order) {
-                                pi.order = Mathf.Clamp(pi.order - 1, 0, menu.piData.Length);
+                    if (Order < menu.PieDatas.Length - 1 && GUILayout.Button("▼", GUILayout.Width(32))) {
+                        Order = Mathf.Clamp(Order + 1, 0, menu.PieDatas.Length);
+                        foreach (PieData pie in menu.PieDatas) {
+                            if (pie != this && pie.Order == Order) {
+                                pie.Order = Mathf.Clamp(pie.Order - 1, 0, menu.PieDatas.Length);
                                 break;
                             }
                         }
                     }
-                    
-                    GUI.backgroundColor = Color.green;
-                    if (GUILayout.Button("+", GUILayout.Width(32)))
-                        AddSlice.Invoke( );
-                    GUI.backgroundColor = Color.red;
-                    if (GUILayout.Button("-", GUILayout.Width(32)))
-                        RemoveSlice.Invoke(this);
-                    GUI.backgroundColor = Color.white;
 
+                    GUI.backgroundColor = Color.red;
+                    if (GUILayout.Button("-", GUILayout.Width(32))) {
+                        RemoveSlice.Invoke(this);
+                    }
+                    GUI.backgroundColor = Color.white;
                 GUILayout.EndHorizontal( );
 
 
                 GUILayout.BeginHorizontal( );
-                EditorGUILayout.LabelField("Non Selected Color");
-                buttonColor = EditorGUILayout.ColorField(buttonColor);
+                EditorGUILayout.LabelField("Button Color");
+                ButtonColor = EditorGUILayout.ColorField(ButtonColor);
                 GUILayout.EndHorizontal( );
 
                 GUILayout.BeginHorizontal( );
                 GUILayout.Label("Interactable", GUILayout.Width(96));
-                isInteractable = EditorGUILayout.Toggle(isInteractable);
+                Interactable = EditorGUILayout.Toggle(Interactable);
                 GUILayout.EndHorizontal( );
 
             GUILayout.EndVertical( );
+
+            if (Order == menu.PieDatas.Length - 1) {    
+                GUI.backgroundColor = Color.green;
+                if (GUILayout.Button("+")) {
+                    AddSlice.Invoke();
+                }
+                GUI.backgroundColor = Color.white;
+            }
         }
 #endif
     }

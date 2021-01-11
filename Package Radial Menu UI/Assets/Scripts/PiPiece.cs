@@ -11,12 +11,10 @@ public class PiPiece : MonoBehaviour
     private bool isOver;
     private Image thisImg;
 
-    [HideInInspector] [SerializeField] private HueColor hue;
+    [SerializeField] [HideInInspector] private PieMenu parent;
     [HideInInspector] [SerializeField] private Color normalColor;
     [HideInInspector] [SerializeField] private Color disabledColor = Color.black;
-    [SerializeField] private Color materialColor;
     [HideInInspector] [SerializeField] private UnityAction<int> clickEvent;
-    [SerializeField] [HideInInspector] private PiUI parent;
 
     private float maxAngle;
     private float minAngle;
@@ -116,7 +114,7 @@ public class PiPiece : MonoBehaviour
         lastFrameIsOver = isOver;
     }
 
-    public void SetData(PiUI.PiData piData, PiUI creator)
+    public void SetData(PieMenu.PieData piData, PieMenu creator)
     {
         parent = creator;
         if (!thisImg )
@@ -124,9 +122,10 @@ public class PiPiece : MonoBehaviour
             thisImg = GetComponent<Image>( );
         }
 
-        normalColor = piData.buttonColor;
-        materialColor = piData.materialColor;
-        clickEvent = piData.onSlicePressed;
+        normalColor = piData.ButtonColor;
+        clickEvent = piData.OnPressed;
+        isInteractable = piData.Interactable;
+
         maxAngle = transform.rotation.eulerAngles.z;
         minAngle = transform.rotation.eulerAngles.z - (thisImg.fillAmount * 360);
         if (transform.rotation.eulerAngles.z == 359f || transform.rotation.eulerAngles.z == 0)
@@ -136,6 +135,5 @@ public class PiPiece : MonoBehaviour
             minAngle = 359f - (thisImg.fillAmount * 360);
         }
 
-        isInteractable = piData.isInteractable;
     }
 }
