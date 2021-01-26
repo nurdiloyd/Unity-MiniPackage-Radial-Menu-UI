@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class DisMenuController : MonoBehaviour
+public class DisMenuTest : MonoBehaviour
 {
     [SerializeField] protected DiscMenu discMenu;
 

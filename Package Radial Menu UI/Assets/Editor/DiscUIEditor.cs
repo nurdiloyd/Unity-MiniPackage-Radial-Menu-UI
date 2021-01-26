@@ -32,9 +32,10 @@ public class DiscUIEditor : Editor
         if(!EditorApplication.isPlaying ) {
             _target.InnerRadius = EditorGUILayout.Slider("Inner Radius", _target.InnerRadius, 0, 5);         
             _target.OuterRadius = EditorGUILayout.Slider("Outer Radius", _target.OuterRadius, 1, 10);
-
+            bool hover = true;
             foreach (DiscSlice discSlice in _target.DiscSlices) {
-                discSlice.ResetSlice();
+                discSlice.ResetSlice(true, hover);
+                hover = false;
             }
         }
 
