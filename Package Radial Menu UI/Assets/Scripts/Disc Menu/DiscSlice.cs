@@ -6,6 +6,7 @@ using DG.Tweening;
 public class DiscSlice : MonoBehaviour
 {
     private Image _icon;
+    private DiscData _discData = new DiscData();
 
     private DiscMenu _discMenu;
     private RectTransform _rtOut;
@@ -21,6 +22,8 @@ public class DiscSlice : MonoBehaviour
     // Inits the disc slice
     public void InitDiskSlice(int data, DiscMenu discMenu) {
         _discMenu = discMenu;
+        _discData.SetData(_discMenu.DiscDatas[data]);
+
         transform.SetParent(_discMenu.transform);
         transform.localScale = Vector3.one;
 
@@ -32,7 +35,7 @@ public class DiscSlice : MonoBehaviour
         _img = _rtOut.GetComponent<Image>();
         
         _icon = transform.GetChild(1).GetComponent<Image>();
-        _icon.sprite = _discMenu.DiscDatas[data].Icon;
+        _icon.sprite = _discData.Icon;
 
         ResetSlice(true, false);
 
@@ -60,19 +63,23 @@ public class DiscSlice : MonoBehaviour
             Vector2 dir = Input.mousePosition - transform.position;
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             angle = (angle + 360) % 360;
-            CheckHover(angle);
+            if (angle > _minAngle && angle < _maxAngle) {
+                MouseOn();
+            }
+            else {
+                MouseOut();
+            }
         }
     }
 
     // Checks the angle, if in interval
-    public void CheckHover(float angle) {
-        if (angle > _minAngle && angle < _maxAngle) {
-            MouseOn();
-        }
-        else {
-            MouseOut();
-        }
+    public bool IsHover() {
+        return _hover;
     }
+
+    public DiscData GetData() {
+        return _discData;
+    } 
 
     public void MouseOn() {
         if (_hover) {

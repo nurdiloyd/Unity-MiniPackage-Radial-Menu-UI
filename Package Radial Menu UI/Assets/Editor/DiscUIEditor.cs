@@ -14,6 +14,7 @@ public class DiscUIEditor : Editor
     private System.Action<DiscData> _removeSlice;
     private DiscData _sliceToRemove;
     private bool _updateFill;
+    private bool _showDatas;
 
 
     private void OnEnable() {
@@ -21,6 +22,7 @@ public class DiscUIEditor : Editor
         _addSlice = AddSlice;
         _removeSlice = RemoveSlice;
         _sliceToRemove = null;
+        _showDatas = true;
         _target.InitDiscMenu(Vector2.zero);
     }
 
@@ -30,24 +32,28 @@ public class DiscUIEditor : Editor
         DrawPropertiesExcluding(serializedObject);
 
         if(!EditorApplication.isPlaying ) {
+            _target.ScaleModifier = EditorGUILayout.Slider("Scale Modifier", _target.ScaleModifier, 0.2f, 5);
             _target.InnerRadius = EditorGUILayout.Slider("Inner Radius", _target.InnerRadius, 0, 5);         
             _target.OuterRadius = EditorGUILayout.Slider("Outer Radius", _target.OuterRadius, 1, 10);
-            bool hover = true;
-            foreach (DiscSlice discSlice in _target.DiscSlices) {
-                discSlice.ResetSlice(true, hover);
-                hover = false;
-            }
+            _target.ResetDisc(true);
         }
 
         GUILayout.Space(10);
-        GUILayout.Label("Slices", EditorStyles.boldLabel);
-
-        // Drawing Slices
-        _target.DiscDatas = _target.DiscDatas.ToList().OrderBy(x => x.Order).ToArray();
-        for (var i = 0; i < _target.DiscDatas.Length; i++) {
-            if (_sliceToRemove != _target.DiscDatas[i]) {
-                _target.DiscDatas[i].OnInspectorGUI(_target, _addSlice, _removeSlice);
+        _showDatas = EditorGUILayout.Foldout(_showDatas, "Slices");
+        if (_showDatas) {
+            if (Selection.activeTransform) {
+                // Drawing Slices
+                _target.DiscDatas = _target.DiscDatas.ToList().OrderBy(x => x.Order).ToArray();
+                for (var i = 0; i < _target.DiscDatas.Length; i++) {
+                    if (_sliceToRemove != _target.DiscDatas[i]) {
+                        _target.DiscDatas[i].OnInspectorGUI(_target, _addSlice, _removeSlice);
+                    }
+                }
             }
+        }
+
+        if (!Selection.activeTransform) {
+            _showDatas = false;
         }
         
         // Adding a Slice

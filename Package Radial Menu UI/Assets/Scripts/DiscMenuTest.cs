@@ -1,9 +1,15 @@
 ﻿using UnityEngine;
 
-public class DisMenuTest : MonoBehaviour
+public class DiscMenuTest : MonoBehaviour
 {
     [SerializeField] protected DiscMenu discMenu;
 
+
+    private void Start() {
+        discMenu.InitDiscMenu(Vector2.one * -1000);
+        discMenu.ClickEvent = new UnityEngine.Events.UnityAction<DiscData>(Clicked);
+        discMenu.CloseMenu();
+    }
 
     private void Update() {
         // Opening
@@ -14,5 +20,9 @@ public class DisMenuTest : MonoBehaviour
         if (Input.GetMouseButtonUp(0)) {
             discMenu.CloseMenu();
         }
+    }
+
+    public void Clicked(DiscData data) {
+        Debug.Log(data.Name + " Selected");
     }
 }
