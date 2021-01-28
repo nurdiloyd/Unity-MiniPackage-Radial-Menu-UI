@@ -37,7 +37,7 @@ public class DiscSlice : MonoBehaviour
         _icon = transform.GetChild(1).GetComponent<Image>();
         _icon.sprite = _discData.Icon;
 
-        ResetSlice(true, false);
+        ResetSlice(true, data == 0);
 
         float fill = 1f / _discMenu.DiscDatas.Length;
         float rot = Mathf.Clamp(fill * 360 * (data + 1) , 0, 360);

@@ -17,7 +17,7 @@ public class DiscMenu : MonoBehaviour
     [Header("Transition Settings")]
     [SerializeField] protected Ease openEase;
     [SerializeField] protected Ease closeEase;
-    [SerializeField] [Range(0.1f, 2f)] protected float transitionTime;
+    [SerializeField] [Range(0.1f, 2f)] protected float transitionTime = 0.3f;
     [SerializeField] protected TransitionType openTransition;
     [SerializeField] protected TransitionType closeTransition;
     [System.Flags] protected enum TransitionType {
@@ -27,18 +27,19 @@ public class DiscMenu : MonoBehaviour
     [Header("Hover Settings")]
     public Ease HoverInEase;
     public Ease HoverOutEase;
-    [Range(0.1f, 2f)] public float HoverTime;
-    [Range(0.5f, 3f)] public float HoverScale;
+    [Range(0.1f, 2f)] public float HoverTime = 0.3f;
+    [Range(0.5f, 3f)] public float HoverScale = 1f;
     
     [Header("Disc Settings")]
-    public Color NormalColor;
-    public Color HoverColor;
-    [HideInInspector] public float InnerRadius;
-    [HideInInspector] public float OuterRadius;
-    [HideInInspector] public float ScaleModifier;
+    public Color NormalColor = Color.black;
+    public Color HoverColor = Color.white;
+    [HideInInspector] public float InnerRadius = 3f;
+    [HideInInspector] public float OuterRadius = 6f;
+    [HideInInspector] public float ScaleModifier = 1f;
 
     [HideInInspector] public DiscData[] DiscDatas;
     [HideInInspector] public bool Opened = true;
+    [HideInInspector] public bool Inited;
 
     private List<DiscSlice> _discSlices = new List<DiscSlice>();
     private List<Tween> _openingTweens = new List<Tween>();
@@ -47,21 +48,25 @@ public class DiscMenu : MonoBehaviour
 
     // Inits the disc menu
     public void InitDiscMenu(Vector2 pos) {
+        if (!discSlice) {
+            return;
+        }
+
         transform.localPosition = pos;
 
         var tempList = transform.Cast<Transform>().ToList();
-        for (int i = 1; i < tempList.Count; i++) {
+        for (int i = 0; i < tempList.Count; i++) {
             DestroyImmediate(tempList[i].gameObject);
         }
 
         _discSlices.Clear();
-        discSlice.InitDiskSlice(0, this);
-        _discSlices.Add(discSlice);
-        for (int i = 1; i < DiscDatas.Length; i++) {
+        for (int i = 0; i < DiscDatas.Length; i++) {
             DiscSlice slice = Instantiate(discSlice);
             slice.InitDiskSlice(i, this);
             _discSlices.Add(slice);
         }
+
+        Inited = true;
     }
 
     private void Update() {
@@ -171,11 +176,12 @@ public class DiscMenu : MonoBehaviour
         return tween;
     }
 
-    public void ResetDisc(bool active) {
+    public void ResetDisc(bool active, bool hover = false) {
         transform.localScale = Vector3.one * ScaleModifier;
         transform.rotation = Quaternion.identity;
         foreach (var slice in _discSlices) {
-            slice.ResetSlice(active, false);
+            slice.ResetSlice(active, hover);
+            hover = false;
         }
     }
 }
