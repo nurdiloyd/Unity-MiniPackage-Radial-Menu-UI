@@ -14,7 +14,7 @@ public class DiscMenuTest : MonoBehaviour
     private void Update() {
         // Opening
         if (Input.GetMouseButtonDown(0)) { 
-            discMenu.OpenMenu(Input.mousePosition);
+            discMenu.OpenMenu(Vector2.zero);
         }
         // Closing
         if (Input.GetMouseButtonUp(0)) {

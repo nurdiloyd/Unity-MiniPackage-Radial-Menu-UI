@@ -77,7 +77,7 @@ public class DiscMenu : MonoBehaviour
 
     // Opens the menu
     public void OpenMenu(Vector2 pos) {
-        transform.position = pos;
+        transform.localPosition = pos;
         ResetDisc(true);
 
         /// TRANSITIONS
